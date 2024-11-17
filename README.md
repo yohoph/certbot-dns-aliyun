@@ -10,11 +10,13 @@ And ensure your RAM account has `AliyunDNSFullAccess` permission.
 
 ## Install
 
+For pip (Unavailable , I'm not the author)
+
 ```bash
 pip install certbot-dns-aliyun
 ```
 
-For Snap:
+For Snap (Unavailable, I'm not the author):
 
 ```bash
 sudo snap install certbot-dns-aliyun
@@ -23,10 +25,10 @@ sudo snap connect certbot:plugin certbot-dns-aliyun
 /snap/bin/certbot plugins
 ```
 
-Or manually:
+Or manually （Recommend）:
 
 ```bash
-git clone https://github.com/tengattack/certbot-dns-aliyun
+git clone https://github.com/yohoph/certbot-dns-aliyun
 cd certbot-dns-aliyun
 sudo python setup.py install
 ```
