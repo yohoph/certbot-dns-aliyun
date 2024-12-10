@@ -2,6 +2,8 @@
 
 A certbot dns plugin to obtain certificates using aliyun.
 
+根据certbot官方要求升级了相关系统版本依赖，解决实用性问题，但是由于我不是作者，snap包无法更新了，可以编译使用。
+
 
 ## Obtain Aliyun RAM AccessKey
 [https://ram.console.aliyun.com/](https://ram.console.aliyun.com/)
